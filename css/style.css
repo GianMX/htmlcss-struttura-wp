@@ -1,0 +1,63 @@
+*{
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 150px;
+  background-color: yellow;
+}
+
+main{
+  margin: 10px 0;
+
+
+}
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .sx {
+  float: left;
+  width: 25%;
+  height: 400px;
+  background-color: pink;
+  margin-right: 5%;
+
+}
+
+main .cnt{
+  float: left;
+  width: 40%;
+  height: 600px;
+  background-color: purple;
+
+
+}
+
+ main .dx .primo{
+  float: right;
+  width: 25%;
+  height: 255px;
+  background-color: pink;
+  margin-bottom: 10px;
+
+}
+
+main .dx .secondo{
+ float: right;
+ width: 25%;
+ height: 275px;
+ background-color: pink;
+
+}
+
+
+footer{
+  height: 75px;
+  background-color: lightblue;
+
+}
